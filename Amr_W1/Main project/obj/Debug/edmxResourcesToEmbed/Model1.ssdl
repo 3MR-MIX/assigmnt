@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Userr">
+    <Key>
+      <PropertyRef Name="userr_id" />
+    </Key>
+    <Property Name="userr_id" Type="int" Nullable="false" />
+    <Property Name="userr_name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="user_password" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="user_age" Type="int" Nullable="false" />
+    <Property Name="user_gender" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="user_number" Type="int" Nullable="false" />
+    <Property Name="user_city" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Userr" EntityType="Self.Userr" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

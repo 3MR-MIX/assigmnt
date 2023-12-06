@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Main project.dbo.Adminn' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Adminn">
+    <Key>
+      <PropertyRef Name="user_namee" />
+      <PropertyRef Name="phone_number" />
+      <PropertyRef Name="age" />
+    </Key>
+    <Property Name="user_namee" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="phone_number" Type="int" Nullable="false" />
+    <Property Name="age" Type="int" Nullable="false" />
+  </EntityType>
   <EntityType Name="Userr">
     <Key>
       <PropertyRef Name="userr_id" />
@@ -14,5 +26,12 @@
   </EntityType>
   <EntityContainer Name="ModelStoreContainer">
     <EntitySet Name="Userr" EntityType="Self.Userr" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Adminn" EntityType="Self.Adminn" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Adminn].[user_namee] AS [user_namee], 
+    [Adminn].[phone_number] AS [phone_number], 
+    [Adminn].[age] AS [age]
+    FROM [dbo].[Adminn] AS [Adminn]</DefiningQuery>
+    </EntitySet>
   </EntityContainer>
 </Schema>

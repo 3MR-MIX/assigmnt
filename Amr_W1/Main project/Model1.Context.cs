@@ -13,10 +13,10 @@ namespace Main_project
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Main_projectEntities : DbContext
+    public partial class Main_projectEntities1 : DbContext
     {
-        public Main_projectEntities()
-            : base("name=Main_projectEntities")
+        public Main_projectEntities1()
+            : base("name=Main_projectEntities1")
         {
         }
     
@@ -26,6 +26,6 @@ namespace Main_project
         }
     
         public virtual DbSet<Userr> Userr { get; set; }
-      
+        public virtual DbSet<Adminn> Adminn { get; set; }
     }
 }

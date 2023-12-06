@@ -12,7 +12,18 @@
     <Property Name="user_number" Type="Int32" Nullable="false" />
     <Property Name="user_city" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
   </EntityType>
-  <EntityContainer Name="Main_projectEntities" annotation:LazyLoadingEnabled="true">
+  <EntityType Name="Adminn">
+    <Key>
+      <PropertyRef Name="user_namee" />
+      <PropertyRef Name="phone_number" />
+      <PropertyRef Name="age" />
+    </Key>
+    <Property Name="user_namee" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="phone_number" Type="Int32" Nullable="false" />
+    <Property Name="age" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Main_projectEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Userr" EntityType="Self.Userr" />
+    <EntitySet Name="Adminn" EntityType="Self.Adminn" />
   </EntityContainer>
 </Schema>

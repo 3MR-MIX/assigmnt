@@ -7,6 +7,11 @@
         <Style x:Key="button" TargetType="Button">
             <Setter Property="Width" Value="119"></Setter>
             <Setter Property="Height" Value="55"></Setter>
+            <Setter Property="Background" Value="DarkBlue"></Setter>
+            <Setter Property="Foreground" Value="LightBlue"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+            <Setter Property="BorderBrush" Value="LightGreen"></Setter>
+            <Setter Property="FontStyle" Value="Oblique"></Setter>
         </Style>
         <Style x:Key="text" TargetType="TextBox">
             <Setter Property="Width" Value="197"></Setter>

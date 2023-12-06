@@ -1,0 +1,23 @@
+﻿<Page x:Class="Main_project.search"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Main_project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="search">
+
+    <Grid Background="Aquamarine">
+        <DataGrid x:Name="data_grid"  Height="231" VerticalAlignment="Top"  AutoGenerateColumns="False" Margin="10,207,10,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Username" Binding="{Binding userr_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Phone number" Binding="{Binding user_number}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Gender" Binding="{Binding user_gender}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Margin="137,57,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="237" Height="27"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="447,61,0,0" VerticalAlignment="Top" Height="23" Width="68" Click="Button_Click"/>
+
+    </Grid>
+</Page>

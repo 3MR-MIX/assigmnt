@@ -9,6 +9,10 @@
       Title="Profile">
 
     <Grid  Background="Aquamarine">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73*"/>
+            <RowDefinition Height="77*"/>
+        </Grid.RowDefinitions>
         <Label Content="Welcome To Profile Screen Page......!" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="350">
             <UIElement.RenderTransform>
                 <TransformGroup>
@@ -21,20 +25,9 @@
         </Label>
         <Rectangle HorizontalAlignment="Center" Height="45" Margin="0,52,0,0" Stroke="Black" VerticalAlignment="Top" Width="350"/>
         <Label Content="[.................] Profile " HorizontalAlignment="Left" Margin="229,56,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="196"/>
-        <Button Content="Log Out" HorizontalAlignment="Left" Margin="445,56,0,0" VerticalAlignment="Top" Height="37" Width="110" Background="#FF00DBFF" FontSize="20" FontWeight="Bold"/>
-        <Rectangle HorizontalAlignment="Center" Height="291" Margin="0,137,0,0" Stroke="Black" VerticalAlignment="Top" Width="579"/>
-        <Label Content="User Name :" HorizontalAlignment="Left" Margin="203,153,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <TextBox Style="{StaticResource text}" HorizontalAlignment="Left" Margin="358,153,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
-        <Label Content="Password :" HorizontalAlignment="Left" Margin="203,195,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <TextBox Style="{StaticResource text}" HorizontalAlignment="Left" Margin="358,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
-        <Label Content="Age :" HorizontalAlignment="Left" Margin="229,238,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <TextBox Style="{StaticResource text}" HorizontalAlignment="Left" Margin="358,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
-        <Label Content="Gender :" HorizontalAlignment="Left" Margin="220,278,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <TextBox  Style="{StaticResource text}"  HorizontalAlignment="Left" Margin="358,279,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
-        <Label Content="Phone Number :" HorizontalAlignment="Left" Margin="176,320,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <TextBox Style="{StaticResource text}" HorizontalAlignment="Left" Margin="358,321,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
-        <Label Content="City :" HorizontalAlignment="Left" Margin="229,362,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <TextBox Style="{StaticResource text}" HorizontalAlignment="Left" Margin="358,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <Button Content="Log Out" HorizontalAlignment="Left" Margin="445,56,0,0" VerticalAlignment="Top" Height="37" Width="110" Background="#FF00DBFF" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <DataGrid x:Name="data_grid" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
 
     </Grid>
 </Page>

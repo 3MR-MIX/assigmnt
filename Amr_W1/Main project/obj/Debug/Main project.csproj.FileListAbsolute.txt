@@ -22,3 +22,36 @@ C:\Users\IT\source\repos\Main project\obj\Debug\Main project.pdb
 C:\Users\IT\source\repos\Main project\obj\Debug\Forget Password.g.cs
 C:\Users\IT\source\repos\Main project\obj\Debug\Profile.g.cs
 C:\Users\IT\source\repos\Main project\obj\Debug\Main project_Content.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.csproj.AssemblyReference.cache
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.csproj.SuggestedBindingRedirects.cache
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Forget Password.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\MainWindow.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Profile.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Sign_in.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Sign_Up.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\App.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project_Content.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project_MarkupCompile.cache
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project_MarkupCompile.lref
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.exe
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.pdb
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\Main project.exe.config
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\Main project.exe
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\Main project.pdb
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\EntityFramework.dll
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\EntityFramework.xml
+C:\Users\IT\Desktop\Amr_W1\Main project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\App.baml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Forget Password.baml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\MainWindow.baml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Profile.baml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Sign_in.baml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Sign_Up.baml
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.g.resources
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main_project.Properties.Resources.resources
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.csproj.GenerateResource.cache
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.csproj.CoreCompileInputs.cache
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\Main project.csproj.CopyComplete
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\search.g.cs
+C:\Users\IT\Desktop\Amr_W1\Main project\obj\Debug\search.baml

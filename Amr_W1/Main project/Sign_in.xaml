@@ -15,11 +15,11 @@
         </Grid.RowDefinitions>
         <Label x:Name="User_Name" Content="User Name :" HorizontalAlignment="Left" Margin="250,124,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Height="37" Width="124"/>
         <TextBox x:Name="box1" Style="{StaticResource text}" HorizontalAlignment="Left" Margin="405,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37" Width="197"/>
-        <TextBox Style="{StaticResource text}" HorizontalAlignment="Left" Margin="405,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37" Width="197"/>
+        <TextBox x:Name="pass" Style="{StaticResource text}" HorizontalAlignment="Left" Margin="405,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37" Width="197"/>
         <Label x:Name="Password" Content="Password :" HorizontalAlignment="Left" Margin="257,172,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Height="37" Width="109"/>
-        <Button x:Name="Login" Style="{StaticResource button}" Content="Login" HorizontalAlignment="Left" Margin="577,71,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="#FF00FF30" Grid.Row="1" Click="Button_Click"/>
-        <Button x:Name="forget_pass" Style="{StaticResource button}" Content="Forget Password" HorizontalAlignment="Left" Margin="35,0,0,0" VerticalAlignment="Center" Background="#FF08FF00" FontSize="20" FontWeight="Bold" Grid.Row="1" Width="180" Height="63" Click="Button_Click_2"/>
-        <Button x:Name="Sign_up" Style="{StaticResource button}" Content="Sign Up" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="#FF00FF28" FontWeight="Bold"  Grid.Row="1" Click="Button_Click_1" Margin="0,71,0,0"/>
+        <Button x:Name="Login" Style="{StaticResource button}" Content="Login" HorizontalAlignment="Left" Margin="577,71,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="#FF00FF30" Grid.Row="1" Click="Login_Click"/>
+        <Button x:Name="forget_pass" Style="{StaticResource button}" Content="Forget Password" HorizontalAlignment="Left" Margin="35,71,0,0" VerticalAlignment="Top" Background="#FF08FF00" FontSize="20" FontWeight="Bold" Grid.Row="1" Width="188" Click="forget_pass_Click"/>
+        <Button x:Name="Sign_up" Style="{StaticResource button}" Content="Sign Up" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="#FF00FF28" FontWeight="Bold"  Grid.Row="1" Margin="0,71,0,0" Click="Sign_up_Click"/>
         <Label Content="Whelcom To Sign In Page.....!" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Height="39" Width="309"/>
 
     </Grid>

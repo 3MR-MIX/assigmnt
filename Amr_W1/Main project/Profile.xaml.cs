@@ -20,9 +20,16 @@ namespace Main_project
     /// </summary>
     public partial class Profile : Page
     {
-        public Profile()
+        Main_projectEntities1 db = new Main_projectEntities1();
+        public Profile(string name)
         {
             InitializeComponent();
+            data_grid.ItemsSource = db.Userr.Where(x => x.userr_name.Contains(name)).ToString();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

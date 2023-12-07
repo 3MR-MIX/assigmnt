@@ -1,0 +1,31 @@
+﻿<Page x:Class="test.Delete"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:test"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Delete">
+
+    <Grid Background="Aquamarine">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="122*"/>
+            <RowDefinition Height="103*"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DG" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="76,64,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="86">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </Label>
+        <TextBox x:Name="C_Txt" Style="{StaticResource text}" HorizontalAlignment="Left" Margin="167,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="493,58,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="117" Height="43" Background="#FF00C8FF" Click="Button_Click"/>
+
+    </Grid>
+</Page>
